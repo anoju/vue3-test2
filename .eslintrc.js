@@ -1,15 +1,14 @@
 module.exports = {
   root: true,
   env: {
-    node: true,
+    node: true
   },
   extends: [
-    // 'plugin:vue/vue3-essential',
-    'plugin:vue/vue3-recommended',
-    '@vue/airbnb',
+    'plugin:vue/vue3-essential',
+    'eslint:recommended'
   ],
   parserOptions: {
-    parser: 'babel-eslint',
+    parser: '@babel/eslint-parser'
   },
   rules: {
     'no-param-reassign': 'off',
@@ -26,6 +25,6 @@ module.exports = {
     quotes: ['error', 'single'], // 문자열따옴표 설정(single / double)
     'vue/html-indent': ['error', 2],
     'max-len': ['error', { code: 400 }],
-    'fun-names': 'off',
-  },
-};
+    'fun-names': 'off'
+  }
+}

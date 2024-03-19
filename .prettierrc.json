@@ -1,0 +1,46 @@
+{
+  "singleQuote": true,
+  "endOfLine": "lf",
+  "printWidth": 180,
+  "trailingComma": "none",
+  "overrides": [
+    {
+      "files": ["*.test.js", "*.test.jsx", "*.test.ts", "*.test.tsx"],
+      "options": {
+        "semi": true,
+        "trailingComma": "none",
+        "singleQuote": true,
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": ["*.vue"],
+      "options": {
+        "semi": true,
+        "trailingComma": "none",
+        "singleQuote": true,
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": ["*.html", "*.css", "*.scss"],
+      "options": {
+        "semi": true,
+        "printWidth": 9999,
+        "singleQuote": true,
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": "*.json",
+      "options": {
+        "printWidth": 200,
+        "tabWidth": 2,
+        "semi": false,
+        "singleQuote": false,
+        "bracketSpacing": true,
+        "trailingComma": "all"
+      }
+    }
+  ]
+}

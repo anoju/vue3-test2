@@ -4,12 +4,7 @@
 </template>
 
 <script>
-import HelloWorld from '@/components/HelloWorld.vue';
-
 export default {
-  name: 'MainIndex',
-  components: {
-    HelloWorld
-  }
+  name: 'MainIndex'
 };
 </script>
